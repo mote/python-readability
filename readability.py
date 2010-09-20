@@ -72,7 +72,7 @@ def _textify(soup, html=False):
     retval = re.sub('[ \t]+', ' ', retval)
     retval = re.sub('[\n\f\v]+', '\n', retval)
     return retval.strip()
-  return soup.preffity()
+  return soup.prettify()
 
 
 def get_title(soup):
